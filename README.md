@@ -30,3 +30,8 @@ This was created from the below tutorial:
     --------------------------------
     powershell.exe -Command Get-Service -Name codedeployagent
     --------------------------------
+
+
+## STEP 2:
+   > Before proceeding further, verify that the permissions are properly set and the codedeploy-agent is properly installed.
+    Deploy using CodeDeploy
