@@ -1,6 +1,6 @@
 # HelloWorldApp-Windows
 
-## This is a github repository that saves the effort of manually doing it. Please feel free to fork this repository and use it to test the deployment to a windows EC2 instance.
+### This is a github repository that saves the effort of manually doing it. Please feel free to fork this repository and use it to test the deployment to a windows EC2 instance.
 
 This was created from the below tutorial:
     https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-windows.html
