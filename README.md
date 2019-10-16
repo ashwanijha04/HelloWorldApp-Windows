@@ -45,3 +45,7 @@ This was created from the below tutorial:
    1. Create a deployment group and add the instance to this group using tags.
    2. Select github repository. [Fork this repository in your account]
    3. Connect to github and use this repository that has been forked.
+   4. Attach a service role which permits CodeDeploy to use the following roles:  AutoScalingFullAccess, AmazonS3FullAccess,  AWSCodeDeployRole. Please feel free to change these policies as per needs.
+
+
+
