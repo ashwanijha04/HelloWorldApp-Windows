@@ -33,5 +33,5 @@ This was created from the below tutorial:
 
 
 ## STEP 2:
-   > Before proceeding further, verify that the permissions are properly set and the codedeploy-agent is properly installed.   
     Deploy using CodeDeploy
+   > Before proceeding further, verify that the permissions are properly set and the codedeploy-agent is properly installed.   
