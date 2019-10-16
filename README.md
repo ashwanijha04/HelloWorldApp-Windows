@@ -5,8 +5,8 @@ This was created from the below tutorial:
     https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-windows.html
     
 
-## STEP 1:
-   Prepare the Windows Instance
+## STEP 1:   Prepare the Windows Instance
+
    
    ### IAM ROLE
    1. > Go to the IAM console and select 'create role'.
@@ -32,6 +32,6 @@ This was created from the below tutorial:
     --------------------------------
 
 
-## STEP 2:
-    Deploy using CodeDeploy
+## STEP 2:     Deploy using CodeDeploy
+
    > Before proceeding further, verify that the permissions are properly set and the codedeploy-agent is properly installed.   
