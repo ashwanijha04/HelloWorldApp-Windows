@@ -1,4 +1,4 @@
-# HelloWorldApp-Windows
+# A sample Windows Hello World application - Deploy using CodeDeploy
 
 ### This is a github repository that saves the effort of manually doing it. Please feel free to fork this repository and use it to test the deployment to a windows EC2 instance.
 
