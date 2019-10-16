@@ -1,6 +1,7 @@
 # HelloWorldApp-Windows
 
-This is a github repository that saves the effort of manually doing it.
+## This is a github repository that saves the effort of manually doing it. Please feel free to fork this repository and use it to test the deployment to a windows EC2 instance.
+
 This was created from the below tutorial:
     https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-windows.html
     
@@ -18,6 +19,11 @@ This was created from the below tutorial:
    
    
    ### CodeDeploy Agent Installation - Powershell
+   Launch the instance and use the security groups as mentioned in this documentation:
+       https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-windows-launch-instance.html
+   
+   Do not forget to add tags to the instance. You can do this later, but why forget important things like permitting some good-hearted API to use other services.
+   
     Set-ExecutionPolicy RemoteSigned
     --------------------------------
     Import-Module AWSPowerShell
@@ -34,4 +40,6 @@ This was created from the below tutorial:
 
 ## STEP 2:     Deploy using CodeDeploy
 
-   > Before proceeding further, verify that the permissions are properly set and the codedeploy-agent is properly installed.   
+   > Before proceeding further, verify that the permissions are properly set and the codedeploy-agent is properly installed.  
+   
+   1. Create a depl
