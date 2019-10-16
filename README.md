@@ -9,9 +9,11 @@ This was created from the below tutorial:
    Prepare the Windows Instance
    
    ### IAM ROLE
-   > Go to the IAM console and select 'create role'.
-   > The EC2 service is going to use this role so select EC2 from the list of services that will use this role.
-   > Attach the following roles:  AmazonS3FullAccess, AWSCodeDeployRoleForECS, AWSCodeDeployFullAccess, AWSCodeDeployRole.[Feel free to change this, this repo addresses the use cases in general.]
+   1. > Go to the IAM console and select 'create role'.
+   
+   2. > The EC2 service is going to use this role so select EC2 from the list of services that will use this role.
+   
+   3. > Attach the following roles:  AmazonS3FullAccess, AWSCodeDeployRoleForECS, AWSCodeDeployFullAccess, AWSCodeDeployRole.[Feel free to change this, this repo addresses the use cases in general.]
    
    > Check that the Trust relationship is as mentioned above.
    
