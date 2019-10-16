@@ -42,4 +42,6 @@ This was created from the below tutorial:
 
    > Before proceeding further, verify that the permissions are properly set and the codedeploy-agent is properly installed.  
    
-   1. Create a depl
+   1. Create a deployment group and add the instance to this group using tags.
+   2. Select github repository. [Fork this repository in your account]
+   3. Connect to github and use this repository that has been forked.
