@@ -19,8 +19,14 @@ This was created from the below tutorial:
    
    ### CodeDeploy Agent Installation - Powershell
     Set-ExecutionPolicy RemoteSigned
+    --------------------------------
     Import-Module AWSPowerShell
+    --------------------------------
     New-Item -Path "c:\temp" -ItemType "directory" -Force
+    --------------------------------
     powershell.exe -Command Read-S3Object -BucketName aws-codedeploy-us-east-1 -Key latest/codedeploy-agent.msi -File c:\temp\codedeploy-agent.msi
+    --------------------------------
     c:\temp\codedeploy-agent.msi /quiet /l c:\temp\host-agent-install-log.txt
+    --------------------------------
     powershell.exe -Command Get-Service -Name codedeployagent
+    --------------------------------
