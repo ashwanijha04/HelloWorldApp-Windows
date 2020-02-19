@@ -2,7 +2,7 @@
 
 ### This is a github repository that saves the effort of manually doing it. Please feel free to fork this repository and use it to test the deployment to a windows EC2 instance.
 
-### ASSUMPTION: The windows instance is launched using AWS console and aws cli comes pre-installed. If not, please install the AWS CLI manually for your windows machine.
+Note: The windows instance is launched using AWS console with the latest AMI and aws cli comes pre-installed. If not, please install the AWS CLI manually for your windows machine.
 
 This was created from the below tutorial:
     https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-windows.html
