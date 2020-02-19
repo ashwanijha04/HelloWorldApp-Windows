@@ -7,3 +7,7 @@ hooks:
   BeforeInstall:
     - location: iisapp\before-install.bat
       timeout: 900
+      
+  ApplicationStop:
+    - location: iisapp\application-stop.bat
+      timeout: 900
